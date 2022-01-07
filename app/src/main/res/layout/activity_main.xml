@@ -51,6 +51,8 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/black"
+            app:hintTextColor="@color/black"
 
             android:hint="User name">
 
@@ -68,6 +70,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="password"
+            app:boxStrokeColor="@color/black"
+            app:hintTextColor="@color/black"
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
